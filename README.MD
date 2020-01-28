@@ -188,8 +188,8 @@ In class `CartItem` whenever a new item is selected for adding to cart list an i
 
 # Anticipated Output
 
-<kbd>![Shopping Cart](docs/shopping-cart-1.png)
-<kdb>![Shopping Cart](docs/shopping-cart-2.png)
-<kdb>![Shopping Cart](docs/shopping-cart-3.png)
-<kdb>![Shopping Cart](docs/shopping-cart-4.png)
-<kdb>![Shopping Cart](docs/shopping-cart-5.png)
+<![Shopping Cart](docs/shopping-cart-1.png)
+>![Shopping Cart](docs/shopping-cart-2.png)
+<![Shopping Cart](docs/shopping-cart-3.png)
+>![Shopping Cart](docs/shopping-cart-4.png)
+<![Shopping Cart](docs/shopping-cart-5.png)
