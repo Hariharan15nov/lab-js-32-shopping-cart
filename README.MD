@@ -186,7 +186,7 @@ In class `CartItem` whenever a new item is selected for adding to cart list an i
 * `decrementItem()` method should decrement the quantity and price of the selected item and then _return updated quantity and price_ of that item.
 * `displayItem()` method should _return an array of HTML elements_.
 
-# Anticipated Output
+### Expected Output
 
 ![Shopping Cart](docs/shopping-cart-1.png)
 ![Shopping Cart](docs/shopping-cart-2.png)
