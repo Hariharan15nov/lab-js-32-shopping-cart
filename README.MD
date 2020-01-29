@@ -186,6 +186,14 @@ In class `CartItem` whenever a new item is selected for adding to cart list an i
 * `decrementItem()` method should decrement the quantity and price of the selected item and then _return updated quantity and price_ of that item.
 * `displayItem()` method should _return an array of HTML elements_.
 
+## Challenge 1: SEARCH AND FIND!
+
+Phineas and Ferb wants to search for items based on name. Help them by adding a search feature to application. so that they can find their favourite items.Add your logic to `searchItems()` method such that it should _return an array of item names_ as a search result.The user search keyword is provided as a parameter.
+
+## Challenge 2: MINING THE DATA!
+
+Phineas and Ferb now wants to sort the search result in alphabetical order.Add your logic to `searchItems()` method such that it should _return the array of item names_ in sorted order. Hint use chaining methods.
+
 ### Expected Output
 
 ![Shopping Cart](docs/shopping-cart-1.png)
