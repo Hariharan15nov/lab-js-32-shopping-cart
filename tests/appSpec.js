@@ -173,6 +173,36 @@ describe('Create Menu', function(){
             expect(list.length).toBe(1);
         });
     });
+
+    describe("Search items", function(){
+        beforeEach(function(){
+            menu = new Menu([
+                'Salted Caramel',
+                'Hot Chocolate',
+                'Hibiscus Lemonade'],
+                PRICE);
+            result = menu.searchItems("c");
+        });
+
+        // Challenge 1 - search for items
+        it('should return a array of items matching\
+        the search keyword', function(){
+            expect(result.length).toBe(3);
+        });
+
+        // Challenge 2 - sort search result
+        it('should return an array in sorted\
+        order', function(){
+            expectedArray = [
+                "Hibiscus Lemonade", 
+                "Hot Chocolate", 
+                'Salted Caramel'
+            ];
+            expect(result).toEqual(expectedArray);
+        });
+        
+    });
+
 });
 
 // Trial 4 - Create a class for cart
